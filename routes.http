@@ -13,3 +13,21 @@ Content-type: application/json
 
 
 GET http://localhost:3333/videos
+
+
+###
+
+PUT http://localhost:3333/videos/dade1ba6-dde9-4bf2-9d90-b4efbe4df2f4
+Content-type: application/json
+
+
+{
+    "title":"video 02",
+    "description": "esse é o primeiro vídeo",
+    "duration": 180
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/5cc332c1-43aa-418e-81be-9b74f72c517d
